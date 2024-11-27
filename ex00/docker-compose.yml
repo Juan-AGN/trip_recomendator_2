@@ -1,0 +1,13 @@
+services:
+  backend:
+    container_name: trip_recomendator
+    build:
+      context: ./trip_recomendator
+    ports:
+      - "3000:3000"
+    networks:
+      - basic_network
+
+networks:
+  basic_network:
+    name: basic_network

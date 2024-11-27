@@ -1,0 +1,17 @@
+.searcher_box{
+  animation: anim 10s infinite;
+}
+
+@keyframes anim {
+  0% {padding-top: 200px; padding-left: 200px; rotate: 0deg; width: 80%; height: 4vh;}
+  5% {padding-top: 200px; padding-left: 220px; rotate: 10deg;}
+  20% {padding-top: 200px; padding-left: 380px; rotate: 70deg; width: 20%;}
+  25% {padding-top: 400px; padding-left: 200px; rotate: 80deg;}
+  30% {padding-top: 400px; padding-left: 220px; rotate: 40deg;}
+  45% {padding-top: 400px; padding-left: 380px; rotate: -40deg; width: 50%;}
+  50% {padding-top: 400px; padding-left: 400px; rotate: -80deg;}
+  55% {padding-top: 380px; padding-left: 400px; rotate: -60deg; width: 10%;}
+  70% {padding-top: 220px; padding-left: 400px; rotate: -90deg;}
+  80% {padding-top: 200px; padding-left: 400px; rotate: -160deg;}
+  100% {padding-top: 200px; padding-left: 200px; rotate: 360deg; width: 80%; height: 4vh;}
+}
